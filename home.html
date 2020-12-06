@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a href="#contactInfo">Contact</a>
+    <a href="#projects">Work</a>
+    <a href="#aboutMe">About</a>
+  <a href="#home" id="homeTitle" class="active">Home</a>
+  
+ 
+ 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="row">
+    <div class="column1" >
+        <p>Hello,</p>
+        <p>I'm ~Lorem~</p>
+        <p>I'm a Software Engineer <br> and Designer</p>
+        <div class='flex-container'>
+            <div class="buttons-header" id="hire-btn"> <a href="#aboutMe" class="buttons">About Me</a></div>
+            <div class="buttons-header" id="down-resume"> <a href="./Tomi Madarikan Resume(updated) (1).pdf" class="buttons">View my Resume</a></div>
+            </div>
+    </div>
+    <div class="column2" >
+        <img src="./images/me.jpg" >
+    </div>
+  </div>
+
+
+  <div class="row" id="aboutMe" style="background-color: white;">
+    <div class="column3" >
+<img src="./images/me2.jpg" alt="">
+
+    </div>
+
+    <div class="column4" >
+        <p>About Me</p>
+        <p>Developer & Designer</p>
+        <p>I am a Computer Science and Music concentrator at Brown University in Providence, Rhode Island. I am passionate about making technology accessible and exciting for all. I am primarily a Software Engineer, but Design is a field that keeps me learning every single day.
+        <p>Outside of work, you can find me listening to podcasts, singing, cooking, and waiting eagerly for the world to be freed from this pandemic</p>
+        </p>
+        <!-- <button>Hire Me</button> -->
+        <button><a href="#projects">View My Work</a></button>
+        
+    </div>
+
+</div>
+
+<div class="row"  id="projects" style="background-color: white;">
+    <h1>Projects:</h1>
+
+    <div class="column5" style="margin-left: 7%;">
+        <img src="./images/personas.png" >
+        <button onclick='window.location.href = "https://radiant-brushlands-98466.herokuapp.com/"'>
+            Personas
+        </button>
+    </div>
+    <div class="column5" >
+        <img src="./images/responsive.png" >
+
+        <button onclick='window.location.href = "https://mighty-plateau-99353.herokuapp.com/"'>
+            Responsive Redesign
+        </button>
+    </div>
+    <div class="column5" >
+        <img src="./images/iterative.png" >
+        <button onclick='window.location.href = "https://sleepy-cliffs-71848.herokuapp.com/"' class="button2">
+            Iterative Design
+        </button>
+    </div>
+    <div class="column5" >
+        <img src="./images/development.png" >
+        <button onclick='window.location.href = "https://obscure-retreat-55340.herokuapp.com/"'>
+            Development
+        </button>
+    </div>
+   
+   
+
+</div>
+
+ <footer id="contactInfo">
+        <p>Contact Me:</p>
+        <!-- <p>ogonwg aognprgn aongo gaongon ongong rgwg</p> -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/tomi.madarikan.5/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/tomi-madarikan-500a1b168/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:oluwatomilayo_madarikan@brown.edu"><i class="fas fa-envelope"></i></a>
+        </div>
+        <!-- <p class="copyright">Copyright by Going-To Internet</p> -->
+    </footer>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

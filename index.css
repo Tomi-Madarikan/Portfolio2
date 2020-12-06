@@ -1,0 +1,586 @@
+/* Put your style information here! */
+body {
+    margin: 0;
+    font-family: myriad pro regular;
+    background-color: #f6f5f5;
+
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    padding-right: 3%;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #505050;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 2%;
+  }
+  
+  .topnav a:hover {
+    background-color:lavenderblush;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: black;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+.row {
+    background-color: #FFEDE1;
+}
+  .column1 {
+    float: left;
+    width: 30%;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+
+  .column2 {
+    float: left;
+    width: 60%;
+  }
+
+  .column3 {
+    float: left;
+    width: 50%;
+  }
+
+  .column4 {
+    float: left;
+    width: 50%;
+  }
+  .column5 {
+    float: left;
+    width: 22%;
+  }
+
+  .column5 img {
+    width: 20vw;
+    height: 60vh;
+
+  }
+
+  #projects {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      position: relative;
+      top: -70px;
+
+  }
+
+  h1 {
+      margin-left: 140px;
+      position: relative;
+      top: -25px;
+      color: #3e3d3d;
+  }
+
+  .column5 button {
+      margin-top: 10px;
+        width: 150px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border: 3px solid;
+        border-radius: 10px;
+        position: relative;
+        left: 120px;
+
+    
+  }
+
+  
+
+  .column3 img {
+      width: 30%;
+      border-radius: 50%;
+      float: right;
+      margin-right: 35%;
+
+  }
+
+  #aboutMe {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -100px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+  #aboutMe p:nth-child(1){
+    color: #403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+#aboutMe p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5px;
+}
+#aboutMe p:nth-child(3),#aboutMe p:nth-child(4) {
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+    padding-right:25%;
+}
+
+#aboutMe button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #262525;
+}
+#aboutMe button a{
+    color: #FFFFFF;
+    font-family: calibri;
+
+}
+#aboutMe button {
+   border-radius: 10px;
+  
+}
+  .column1 p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+.column1 p{
+    line-height: 0px;
+    margin: 45px 0px 25px; 
+}
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .buttons-header {
+  margin-left: 1.5em;
+  } 
+  .buttons{
+              
+              line-height: 3em;
+              margin-right:0.5em;
+              margin-top: 0.5em;
+              padding-left: 30px;
+              padding-right: 30px;
+              padding-top: 12px;
+              padding-bottom: 12px;
+
+
+              font-family: calibri;
+              font-weight: bold;
+              font-size: 14px;
+              text-align: center;
+              border-radius: 10px;
+
+              text-decoration: none;
+              background-color: #0b0b0b;;
+              color: #f0ffff;
+              cursor: pointer;
+
+              border: 2px solid #373636;
+    border-radius: 10px;
+
+
+   }
+   #hire-btn:hover {
+    transform: scale(1.1);
+}
+
+#down-resume:hover {
+    transform: scale(1.1);
+}
+
+
+
+#hire-btn a{
+    color: #373636;
+    background-color: white;
+    margin-left: -30px;
+
+}
+
+#down-resume a{
+    color: white;
+    background-color: #0b0b0b;
+    margin-left: -20px;
+
+}
+  .column1 p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.column1 p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 380%;
+}
+.column2 img {
+    /* height: 560px; */
+    margin-top: 5%;
+    width: 55%;
+    
+}
+@media screen and (max-width: 1600px) {
+    .column5 img {
+        width: 20vw;
+        height: 30vh;
+    
+      }
+      .column5 button {
+        margin-top: 10px;
+          width: 150px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 3px solid;
+          border-radius: 10px;
+          position: relative;
+          left: 50px;
+  
+      
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .column5 img {
+        width: 20vw;
+        height: 25vh;
+    
+      }
+      .column5 button {
+        margin-top: 10px;
+          width: 150px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 3px solid;
+          border-radius: 10px;
+          position: relative;
+          left: 40px;
+  
+      
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .column5 {
+        width: 40%;
+        margin-left: 70px !important;
+    }
+    .column5 img {
+        width: 50vw;
+        height: 30vh;
+        margin-top: 20px;
+    
+      }
+      .column5 button {
+        margin-top: 10px;
+          width: 150px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 3px solid;
+          border-radius: 10px;
+          position: relative;
+          left: 60px;
+  
+      
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .column5 {
+        width: 40%;
+        margin-left: 70px !important;
+    }
+    .column5 img {
+        width: 30vw;
+        height: 20vh;
+        margin-top: 20px;
+    
+      }
+      .column5 button {
+        margin-top: 10px;
+          width: 150px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 3px solid;
+          border-radius: 10px;
+          position: relative;
+          left: 60px;
+  
+      
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .column5 {
+        width: 100%;
+        margin-left: 150px !important;
+    }
+    .column5 img {
+        width: 50vw;
+        height: 30vh;
+        margin-top: 80px;
+    
+      }
+      .column5 button {
+        margin-top: 10px;
+          width: 150px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 3px solid;
+          border-radius: 10px;
+          position: relative;
+          left: -250px;
+          top: 50px;
+  
+      
+    }
+}
+
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer p{
+    font-family: calibri;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color: hsl(0, 0%, 49%);
+    width: 600px;
+    text-align: center;
+}
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex
+}
+.copyright{
+    color: #565555;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+.social-icons i{
+    color: #000000;
+}
+.social-icons a:hover,
+.a-social-b a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0,0, 0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i, .a-social-b a:hover i{
+    color: #FFFFFF;
+    transition:  all ease 0.5s;
+}
+
+@media screen and (max-width: 1480px) {
+    #aboutMe button {
+/* background-color: orange;      */
+     }
+     #aboutMe  {
+       margin-top: 70px;  
+             }
+
+}
+@media screen and (max-width: 900px) {
+    #aboutMe button {
+/* background-color: teal;      */
+     }
+     #aboutMe  {
+       margin-top: 50px;  
+             }
+
+}
+@media screen and (max-width: 1100px) {
+    .column1 p:nth-child(2) {
+        font-size: 300%;
+    }
+    .column1 p:nth-child(3){
+        font-size: 140%;
+    }
+    .buttons-header {
+        margin-top: 10px;
+    
+    }
+    .column2 img {
+        /* height: 560px; */
+        margin-top: 5%;
+        width: 85%;
+        
+    }
+  }
+  @media screen and (min-width: 1100px) {
+    .column1 p:nth-child(2) {
+        font-size: 350%;
+    }
+    .column1 p:nth-child(3){
+        font-size: 170%;
+    }
+    .column2 img {
+        /* height: 560px; */
+        margin-top: 5%;
+        width: 55%;
+        
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .column1 p:nth-child(2) {
+        font-size: 230%;
+    }
+    .column1 p:nth-child(3){
+        font-size: 130%;
+    }
+    #aboutMe  {
+        margin-top: 100px;  
+              }
+  }
+  @media screen and (max-width: 700px) {
+    .column1 p:nth-child(2) {
+        font-size: 180%;
+    }
+    .column1 p:nth-child(3){
+        font-size: 120%;
+    }
+
+    .column2 img {
+        /* height: 560px; */
+        margin-top: 5%;
+        width: 85%;
+        margin-left: 20px;
+        
+    }
+    .row {
+        padding-bottom: 30px;
+    }
+    .column3 {
+        width: 100%;
+    }
+    .column4 {
+        width: 100%;
+    }
+    #aboutMe  {
+        margin-top: 85px; 
+              }
+    #aboutMe p {
+        margin-left: 100px; 
+
+    }
+    #aboutMe button {
+        margin-left: 100px; 
+
+    }
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+
+    /* #homeTitle {
+        margin-top: 50px;
+    } */
+    .column1 {
+        width: 90%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    .column3 {
+        width: 100%;
+    }
+    .column4 {
+        width: 100%;
+    }
+    .column5 {
+        width: 100%;
+
+    }
+
+    .column5 button {
+        margin-top: 10px;
+          width: 150px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 3px solid;
+          border-radius: 10px;
+          position: relative;
+          left: -200px;
+          top: 50px;
+  
+      
+    }
+    .column1 p:nth-child(2) {
+        font-size: 200%;
+    }
+    
+    
+  }
